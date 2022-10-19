@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar bg-secondary">
+        <div class="flex-1">
+            <a href="#" class="btn btn-ghost text-xl text-white">BRAND</a>
+        </div>
+        <div class="navbar-end">
+            <button class="btn btn-secondary">
+                <i class="fas fa-bars px-3 text-white"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="container mx-auto">
+       <div class="player p-3 bg-slate-400 rounded-xl">
+        <img src="./img/music-bg.jpg" alt="">
+        <div class="flex flex-col mt-3">
+            <div class="media md:flex bg-slate-100 rounded-xl p-4 mb-3 flex-row justify-between">
+                <i class="fas fa-music w-10 h-24 mt-5 fa-3x md:h-auto md-rounded-none"></i>
+                <div class="flex flex-col">
+                    <label class="text-center">music Label</label>
+                    <div class="flex mt-2">
+                        <button class="btn mx-5">
+                            <i class="fas fa-backward fa-1x"></i>
+                        </button>
+                        <button class="btn">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="btn mx-5">
+                            <i class="fas fa-forward fa-1x "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="btn mt-5">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+            </div>
+            <div class="playlist flex flex-col">
+                <h4 class="text-center text-black text-2xl">Liste des musics</h4>
+                <!-- List of music -->
+                <div class="flex bg-slate-200 w-100 rounded-xl p-4 mb-2">
+                    <i class="fas fa-music w-10 h-24 mt-0 fa-2x md:h-auto md-rounded-none"></i>
+                    <p class="text-slate-400 mx-3">Music label</p>
+                </div>
+                <div class="flex bg-slate-200 w-100 rounded-xl p-4 mb-2">
+                    <i class="fas fa-music w-10 h-24 mt-0 fa-2x md:h-auto md-rounded-none"></i>
+                    <p class="text-slate-400 mx-3">Music label</p>
+                </div>
+                <div class="flex bg-slate-200 w-100 rounded-xl p-4 mb-2">
+                    <i class="fas fa-music w-10 h-24 mt-0 fa-2x md:h-auto md-rounded-none"></i>
+                    <p class="text-slate-400 mx-3">Music label</p>
+                </div>
+                <!-- End of list of music -->
+            </div>
+        </div>
+       </div>
+    </div>
+    
+</body>
+</html>
